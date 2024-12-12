@@ -55,7 +55,6 @@ This is your admin panel dashboard with containing all the essential features th
 <img src="screenshots/Screenshot (123).png" alt="Screenshot 123">
 
 
-<img src="screenshots/Screenshot (124).png" alt="Screenshot 124">
 
 Now go to product tab and add new product name, price, description & excerpt. Click on save.
 <img src="screenshots/Screenshot (125).png" alt="Screenshot 125">
