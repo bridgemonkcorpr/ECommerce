@@ -114,8 +114,6 @@ Organize products into collections:
 
 <img src="screenshots/Screenshot (136).png" alt="Create Collection Screenshot" style="max-width:100%; border-radius:8px;">
 
-<img src="screenshots/Screenshot (137).png" alt="Create Collection Screenshot" style="max-width:100%; border-radius:8px;">
-
 
 ### 🛠️ Store Customization
 
