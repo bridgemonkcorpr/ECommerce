@@ -214,4 +214,3 @@ KM thrives thanks to its active community of contributors. Learn more about how 
 
 Support KM by becoming a sponsor. Your logo will appear here with a link to your website. Interested? Email us to discuss sponsorship opportunities.
 
-<img src="screenshots/Screenshot (157).png" alt="Sponsor Screenshot" style="max-width:100%; border-radius:8px;">
