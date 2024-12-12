@@ -1,182 +1,183 @@
-# KM: Open-Source Laravel eCommerce Framework
+# Introduction
+<img src="screenshots/01.png" alt="Screenshot 119">
+KM is an opensource [laravel eCommerce] framework built on some of the hottest technologies such as [Laravel](https://laravel.com/) (a [PHP](https://secure.php.net/) framework) and [Tailwind CSS](https://tailwindcss.com/) a progressive CSS Library built with the help of [Vite](https://vite.dev/).
 
-<img src="screenshots/01.png" alt="KM Screenshot" style="max-width:100%; border-radius:8px;">
+KM can help you reduce the time, cost, and workforce that you are going to spend for building online stores or migrating to the fast-paced online world. Either small or huge business can easily benefit. The best part, it's straightforward to set it up!
 
-**KM** is an open-source [Laravel eCommerce](https://laravel.com/) framework that combines the power of [Laravel](https://laravel.com/) (a [PHP](https://secure.php.net/) framework) and [Tailwind CSS](https://tailwindcss.com/). Utilizing [Vite](https://vite.dev/), it provides a modern, fast, and efficient development experience.
 
-KM streamlines the process of launching online stores, reducing the time, cost, and effort needed to take your business online. Whether you're a small business or a large enterprise, KM is flexible, robust, and easy to set up!
+## Deployment
 
----
-
-## 🚀 Deployment
-
-Deploy KM by following these simple steps:
+To deploy this project run
 
 ```bash
-# Install dependencies
-composer install
+  composer i
 
-# Run migrations
-php artisan migrate
 
-# Alternatively, import the provided SQL file
-# located in /database/data/bridgemonkcorp.sql
-
-# Start the server
-php artisan serve
+  php artisan migrate 
+  
+  or direct run sql file in /database/data/bridgemonkcorp.sql
+  
+  php artisan serve
 ```
 
-<img src="screenshots/Screenshot (146).png" alt="Deployment Screenshot" style="max-width:100%; border-radius:8px;">
+# Getting Started
 
----
 
-## 📋 Getting Started
 
-### [📹 Install KM](https://www.youtube.com/watch?v=1J7U5n7h8Lo)
 
-Follow the [Getting Started with KM](https://www.youtube.com/watch?v=1J7U5n7h8Lo) video tutorial for step-by-step guidance.
+[Install KM](https://www.youtube.com/watch?v=1J7U5n7h8Lo) with Composer 
 
-### Initial Setup Steps
+Follow the [Getting Started with KM](https://www.youtube.com/watch?v=1J7U5n7h8Lo) Tutorial
 
-#### 1. Store Setup
 
-Configure your store with basic details like store name, description, email address, and phone number. Access the setup page at [http://localhost:8000/admin/setup](http://localhost:8000/admin/setup).
 
-<img src="screenshots/Screenshot (119).png" alt="Store Setup Screenshot" style="max-width:100%; border-radius:8px;">
 
-#### 2. Admin Setup
 
-Create your admin account by entering a name, email, and password. Click "Next" to proceed.
+Steps
 
-<img src="screenshots/Screenshot (120).png" alt="Admin Setup Screenshot" style="max-width:100%; border-radius:8px;">
+1st step - 
+[Click](localhost:8000/admin/setup) on this link to setup ecommerce & Enter store name, description, store email address & phone number. 
+<img src="screenshots/Screenshot (119).png" alt="Screenshot 119">
 
-#### 3. Verify Store Details
+2nd step - 
+Enter your admin name, email & password to proceed further. Click on next.
+<img src="screenshots/Screenshot (120).png" alt="Screenshot 120">
 
-Review and confirm the store details you have provided.
+3rd step - 
+Verify the details that you have set-up for your store that it whether mayches with all the details that you have entered.
+<img src="screenshots/Screenshot (121).png" alt="Screenshot 121">
 
-<img src="screenshots/Screenshot (121).png" alt="Verify Details Screenshot" style="max-width:100%; border-radius:8px;">
+4th step - 
+Your admin panel has been setup. Click on Go to admin panel to go to admin enter your email & password and redirect to admin panel dashboard.
+<img src="screenshots/Screenshot (122).png" alt="Screenshot 122">
 
-#### 4. Access Admin Panel
+This is your admin panel dashboard with containing all the essential features that admin panel might needed.
+<img src="screenshots/Screenshot (123).png" alt="Screenshot 123">
 
-Login to the admin panel using your credentials to start managing your store.
 
-<img src="screenshots/Screenshot (122).png" alt="Admin Panel Access Screenshot" style="max-width:100%; border-radius:8px;">
 
-#### Admin Dashboard
+Now go to product tab and add new product name, price, description & excerpt. Click on save.
+<img src="screenshots/Screenshot (125).png" alt="Screenshot 125">
 
-Explore KM's comprehensive admin dashboard to manage your store effectively:
+Now go to product tab and add new product price, compare price & cost per item. Click on save.
+<img src="screenshots/Screenshot (126).png" alt="Screenshot 126">
 
-<img src="screenshots/Screenshot (123).png" alt="Admin Dashboard Screenshot" style="max-width:100%; border-radius:8px;">
+Now in product gallery add multiple products images it will take some time to save, so please be patient.
+<img src="screenshots/Screenshot (127).png" alt="Screenshot 127">
 
----
 
-## 🌟 Key Features
+Now go to product tab and add new product inventory stock & weight per item. Click on save. Add your shipping box weight and click on save.
+<img src="screenshots/Screenshot (129).png" alt="Screenshot 129">
 
-### 🛍️ Add Products
+Now you will see how will see how your product page will look, you can check this on by clicking on preview.
+<img src="screenshots/Screenshot (131).png" alt="Screenshot 131">
 
-1. Navigate to the **Products** tab.
-2. Fill in product details, including name, price, description, inventory, and weight.
-3. Upload product images to the gallery.
-4. Save your changes.
+This is how your product will look like on admin page on product being listed
+<img src="screenshots/Screenshot (132).png" alt="Screenshot 132">
 
-<img src="screenshots/Screenshot (125).png" alt="Add Product Screenshot" style="max-width:100%; border-radius:8px;">
+Now we are going to create collection by clicking on create new collection and then adding your collection title and description.
+<img src="screenshots/Screenshot (133).png" alt="Screenshot 133">
 
-### 📋 Product Preview
+NOw we are going to see product collection title and description.
+<img src="screenshots/Screenshot (134).png" alt="Screenshot 134">
 
-Preview how your product will appear to customers:
+Now select what type of product you want to add for it to being listed. 
+<img src="screenshots/Screenshot (135).png" alt="Screenshot 135">
 
-<img src="screenshots/Screenshot (131).png" alt="Product Preview Screenshot" style="max-width:100%; border-radius:8px;">
+Click on browser product to add the product.
+<img src="screenshots/Screenshot (136).png" alt="Screenshot 136">
 
-### 🗂️ Create Collections
+Search and add the product that you want to add in your collection.
+<img src="screenshots/Screenshot (137).png" alt="Screenshot 137">
 
-Organize products into collections:
-1. Add a collection title and description.
-2. Select products to include.
-3. Upload a collection cover image.
+Now you can add the collection cover image for your collection demo.
+<img src="screenshots/Screenshot (138).png" alt="Screenshot 138">
 
-<img src="screenshots/Screenshot (134).png" alt="Create Collection Screenshot" style="max-width:100%; border-radius:8px;">
+Now we are going to add shipping rule. For that click on shipping and click on create new.
+Add zone name. 
+<img src="screenshots/Screenshot (139).png" alt="Screenshot 139">
 
-### 🛠️ Store Customization
+Select the zone country
+<img src="screenshots/Screenshot (140).png" alt="Screenshot 140">
 
-Configure store themes and settings to match your brand identity:
+Click on add rate.
+<img src="screenshots/Screenshot (141).png" alt="Screenshot 141">
 
-<img src="screenshots/Screenshot (135).png" alt="Store Customization Screenshot" style="max-width:100%; border-radius:8px;">
+Add rate name, price & description for shipping rate policy.
+<img src="screenshots/Screenshot (142).png" alt="Screenshot 142">
 
-### 🚚 Shipping Rules
 
-Define shipping rates and zones:
-1. Specify rates based on weight or price.
-2. Add conditions and descriptions for each rate.
+After clicking on add condition, we have two option either based on weight and price. You can add any.
+<img src="screenshots/Screenshot (143).png" alt="Screenshot 143">
 
-<img src="screenshots/Screenshot (143).png" alt="Shipping Rules Screenshot" style="max-width:100%; border-radius:8px;">
+Now we are going to create tax zone. Click on create tax zone.
+<img src="screenshots/Screenshot (144).png" alt="Screenshot 144">
 
-### 🌍 Tax Zones
+Create tax zone name and select the country for tax zone.
+<img src="screenshots/Screenshot (145).png" alt="Screenshot 145">
 
-Set up tax zones for country-specific rates:
-1. Define tax percentages.
-2. Prioritize multiple tax rules.
+Add tax rate name, tax percentage & tax priority.
+<img src="screenshots/Screenshot (146).png" alt="Screenshot 146">
 
-<img src="screenshots/Screenshot (144).png" alt="Tax Zone Screenshot" style="max-width:100%; border-radius:8px;">
+Now we are goin to create discount for your products for that we can generate discount code by clicking on generate, we can add type percentage & value, we can add specific product or collection and select the date from which it is going to start.
+<img src="screenshots/Screenshot (147).png" alt="Screenshot 147">
 
-### 💸 Discounts
+As we are goin to select the product for discount.
+<img src="screenshots/Screenshot (148).png" alt="Screenshot 148">
 
-Create and manage discounts easily:
-1. Generate discount codes.
-2. Choose percentage or value-based discounts.
-3. Specify applicable products or collections.
-4. Set start and end dates for validity.
+Click on save to save it.
+<img src="screenshots/Screenshot (149).png" alt="Screenshot 149">
 
-<img src="screenshots/Screenshot (147).png" alt="Discount Setup Screenshot" style="max-width:100%; border-radius:8px;">
+Now we are going to create new account and sign up for it.
+<img src="screenshots/Screenshot (150).png" alt="Screenshot 150">
 
-### 🛒 Customer Experience
+We are going to add one of our product to the cart.
+<img src="screenshots/Screenshot (151).png" alt="Screenshot 151">
 
-Enhance the customer journey with:
-1. Easy signup.
-2. Seamless product addition to cart.
-3. Discount code application and smooth checkout process.
+After adding to cart we are going to checkout.
+<img src="screenshots/Screenshot (152).png" alt="Screenshot 152">
 
-<img src="screenshots/Screenshot (151).png" alt="Customer Cart Screenshot" style="max-width:100%; border-radius:8px;">
+We are going to apply discount code and going to add all the required details to get it delivered.
+<img src="screenshots/Screenshot (153).png" alt="Screenshot 153">
 
-### 📦 Admin Order Management
+We are to select fixed charge & cash on delivery for it. 
+<img src="screenshots/Screenshot (154).png" alt="Screenshot 154">
 
-Monitor and manage orders directly from the admin panel:
+Now we can check in our admin that we have recived the order.
+<img src="screenshots/Screenshot (156).png" alt="Screenshot 156">
 
-<img src="screenshots/Screenshot (156).png" alt="Order Details Screenshot" style="max-width:100%; border-radius:8px;">
+This is the order details that we have received.
+<img src="screenshots/Screenshot (157).png" alt="Screenshot 157">
 
----
 
-## 🚀 Accelerate Your Online Store Launch
 
-With KM's **Starter Pack**, you get all the foundational features needed to set up your store with ease. [Explore the KM Starter Pack](https://www.youtube.com/watch?v=1J7U5n7h8Lo).
 
----
 
-## 🌐 Versatile Commerce Solutions
+# Accelerate Your Online Store Launch with the KM Freemium!
 
-KM is suitable for a variety of industries like fashion, textiles, and beyond. Customize it to align with your unique business requirements!
+We cover all the basic features of ecommerce that is needed for an online store [KM Starter Pack](https://www.youtube.com/watch?v=1J7U5n7h8Lo), with easy streamlining setup and integration for launch. Find your success through our free product. 
 
----
 
-## 📜 License
+# Commerce For Every Need
 
-KM is open-source and licensed under the [MIT License](https://opensource.org/license/mit), ensuring it remains free and accessible for everyone.
 
----
+With KM, you can easily create use cases for various commerce needs like cloth, garment, textile, and many more.
 
-## 🛡️ Security Vulnerabilities
 
-If you discover any security issues, please report them privately to [bridgemonkcorp@gmail.com](mailto:bridgemonkcorp@gmail.com). Your contributions to keeping KM secure are appreciated.
+# License
+KM is a truly open-source laravel eCommerce framework that will always be free under the [MIT License](https://opensource.org/license/mit).
 
----
+# Security Vulnerabilities
+If you think that you have found a security issue in Bagisto, please do not use the issue tracker and do not post it publicly. Instead, all security issues must be sent to [mailto:bridgemonkcorp@gmail.com](mailto:bridgemonkcorp@gmail.com).
 
-## 🤝 Contributors
+# Contributors
 
-KM thrives thanks to its active community of contributors. Learn more about how you can contribute on our [Open Collective](https://opencollective.com/).
+This project is on [Open Collective](https://opencollective.com/), and it exists thanks to the people who contribute.
 
----
 
-## 💖 Sponsors
 
-Support KM by becoming a sponsor. Your logo will appear here with a link to your website. Interested? Email us to discuss sponsorship opportunities.
+# Sponsors
 
-<img src="screenshots/Screenshot (157).png" alt="Sponsor Screenshot" style="max-width:100%; border-radius:8px;">
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website.
+
+Mail us to show your interest and we would love to serve you.
