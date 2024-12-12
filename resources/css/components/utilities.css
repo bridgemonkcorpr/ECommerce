@@ -1,0 +1,67 @@
+@layer utilities {
+    [x-cloak] {
+        display: none;
+    }
+
+    .dark {
+        color-scheme: dark;
+    }
+
+    input.no-spinners[type=number]::-webkit-inner-spin-button,
+    input.no-spinners[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    input.show-spinners[type=number]::-webkit-inner-spin-button,
+    input.show-spinners[type=number]::-webkit-outer-spin-button {
+        opacity: 100;
+    }
+
+    .scroll-no-bar::-webkit-scrollbar {
+        display: none;
+    }
+
+    @-webkit-keyframes buzz {
+        0%,
+        to {
+            transform: scale(.99)
+        }
+
+        25% {
+            transform: scale(1.01)
+        }
+
+        50% {
+            transform: scale(.99)
+        }
+
+        75% {
+            transform: scale(1.01)
+        }
+    }
+
+    @keyframes buzz {
+        0%,
+        to {
+            transform: scale(.99)
+        }
+
+        25% {
+            transform: scale(1.01)
+        }
+
+        50% {
+            transform: scale(.99)
+        }
+
+        75% {
+            transform: scale(1.01)
+        }
+    }
+
+    .animate-buzz {
+        -webkit-animation: buzz .2s ease-in-out;
+        animation: buzz .2s ease-in-out
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "bridgemonkcorp/contact",
+    "description": "This will send an email to user who are tryinh to contact and will save the contact details in database",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bridgemonkcorp\\Contact\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ayush12993",
+            "email": "36598788+ayush12993@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

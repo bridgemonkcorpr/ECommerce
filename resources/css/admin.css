@@ -1,0 +1,12 @@
+@import "tailwindcss/base.css";
+
+@import "tailwindcss/components.css";
+@import "./components/button.css";
+@import "./components/flatpickr.css";
+@import "./components/quill.css";
+@import "./components/tiptap.css";
+
+@import "tailwindcss/utilities.css";
+@import "./components/utilities.css";
+
+@config "./../../tailwind.admin.config.js";

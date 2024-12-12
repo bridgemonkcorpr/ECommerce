@@ -1,0 +1,53 @@
+@layer components {
+    .btn {
+        @apply inline-flex items-center justify-center px-4 py-2 text-sm rounded-md font-medium disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed;
+    }
+
+    .btn-xs {
+        @apply px-2.5 py-1.5 text-xs !important;
+    }
+
+    .btn-sm {
+        @apply px-3 py-2 text-sm leading-4 !important;
+    }
+
+    .btn-lg {
+        @apply px-4 py-2 text-base !important;
+    }
+
+    .btn-xl {
+        @apply px-6 py-3 text-base !important;
+    }
+
+    .btn-default {
+        @apply bg-white text-slate-900 shadow-sm ring-1 ring-inset ring-slate-300 hover:bg-slate-50 focus-visible:outline-purple-500 dark:ring-slate-700 dark:bg-slate-900 dark:text-white dark:hover:bg-slate-800;
+    }
+
+    .btn-primary {
+        @apply bg-purple-500 text-white shadow-sm hover:bg-purple-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-500 dark:hover:bg-purple-400 dark:focus-visible:outline-purple-700;
+    }
+
+    .btn-danger {
+        @apply bg-red-500 text-white shadow-sm hover:bg-red-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-500 dark:hover:bg-red-400 dark:focus-visible:outline-red-700;
+    }
+
+    .btn-invisible {
+        @apply bg-transparent text-purple-500 hover:bg-slate-50 hover:text-purple-600 focus-visible:outline-purple-500 dark:hover:bg-slate-800 dark:hover:text-purple-400 dark:focus-visible:outline-purple-700;
+    }
+
+    .btn-link {
+        @apply p-0 text-purple-500 hover:text-purple-600 focus-visible:outline-purple-500 dark:hover:text-purple-400 dark:focus-visible:outline-purple-700;
+    }
+
+    .btn-outline-primary {
+        @apply bg-white text-purple-500 shadow-sm ring-1 ring-inset ring-slate-300 hover:bg-purple-500 hover:text-white hover:ring-purple-500 focus-visible:outline-purple-500 dark:ring-slate-700 dark:bg-transparent dark:hover:bg-purple-500 dark:hover:text-white dark:focus-visible:outline-purple-500;
+    }
+
+    .btn-outline-warning {
+        @apply bg-white text-purple-600 shadow-sm ring-1 ring-inset ring-slate-300 hover:bg-purple-600 hover:text-white hover:ring-purple-600 focus-visible:outline-purple-600 dark:ring-slate-700 dark:bg-transparent dark:text-purple-500 dark:hover:bg-slate-800 dark:hover:text-white dark:focus-visible:outline-purple-500;
+    }
+
+    .btn-outline-danger {
+        @apply bg-white text-red-500 shadow-sm ring-1 ring-inset ring-slate-300 hover:bg-red-500 hover:text-white hover:ring-red-500 focus-visible:outline-red-500 dark:ring-slate-700 dark:bg-transparent dark:hover:bg-red-500 dark:hover:text-white dark:focus-visible:outline-red-500;
+    }
+}

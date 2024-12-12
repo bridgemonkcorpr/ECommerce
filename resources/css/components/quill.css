@@ -1,0 +1,30 @@
+.ql-toolbar.ql-snow {
+    border-color: theme("colors.slate.300") !important;
+    border-radius: theme("borderRadius.md") theme("borderRadius.md") 0 0;
+}
+
+.ql-container {
+    font-family: theme("fontFamily.sans") !important;
+    font-size: theme("fontSize.sm") !important;
+}
+
+.ql-container.ql-snow {
+    border-color: theme("colors.slate.300") !important;
+    border-radius: 0 0 theme("borderRadius.md") theme("borderRadius.md");
+}
+
+.dark .ql-toolbar.ql-snow {
+    border-color: theme("colors.white/0.1") !important;
+    background-color: theme("colors.white/0.05");
+    border-radius: theme("borderRadius.md") theme("borderRadius.md") 0 0;
+}
+
+.dark .ql-container.ql-snow {
+    border-color: theme("colors.white/0.1") !important;
+    background-color: theme("colors.white/0.05");
+    border-radius: 0 0 theme("borderRadius.md") theme("borderRadius.md");
+}
+
+.dark .ql-toolbar.ql-snow .ql-formats {
+    @apply invert;
+}

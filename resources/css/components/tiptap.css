@@ -1,0 +1,11 @@
+.ProseMirror img.ProseMirror-selectednode {
+    @apply ring-2 ring-offset-2 ring-purple-400 dark:ring-offset-slate-900;
+}
+
+.ProseMirror p.is-editor-empty:first-child::before {
+    content: attr(data-placeholder);
+    float: left;
+    color: #64748b;
+    pointer-events: none;
+    height: 0;
+}

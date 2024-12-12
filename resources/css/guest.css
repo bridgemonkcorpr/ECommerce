@@ -1,0 +1,10 @@
+@import "tailwindcss/base.css";
+
+@import "tailwindcss/components.css";
+@import "./components/button.css";
+@import "./components/nouislider.css";
+
+@import "tailwindcss/utilities.css";
+@import "./components/utilities.css";
+
+@config "./../../tailwind.guest.config.js";

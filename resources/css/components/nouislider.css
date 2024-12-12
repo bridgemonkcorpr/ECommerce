@@ -1,0 +1,50 @@
+.slider-fit {
+    padding: 0 16px;
+}
+
+.noUi-target {
+    @apply border border-slate-200 bg-slate-50 !important;
+}
+
+.noUi-connects {
+    @apply overflow-visible !important;
+}
+
+.noUi-connect {
+    @apply bg-purple-500 !important;
+}
+
+.noUi-horizontal {
+    height: 9px !important;
+}
+
+.noUi-horizontal .noUi-handle {
+    height: 16px !important;
+    width: 16px !important;
+    top: -5px !important;
+}
+
+.noUi-handle {
+    background: theme('colors.white') !important;
+    border: none !important;
+    border-radius: theme('borderRadius.full') !important;
+    box-shadow: none !important;
+    cursor: pointer !important;
+    @apply ring-2 ring-purple-500 !important;
+}
+
+.noUi-handle-lower {
+    right: -1px !important;
+}
+
+.noUi-handle-upper {
+    right: -17px !important;
+}
+
+.noUi-handle:before {
+    content: none !important;
+}
+
+.noUi-handle:after {
+    content: none !important;
+}
