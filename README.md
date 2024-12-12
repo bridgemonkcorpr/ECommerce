@@ -1,183 +1,153 @@
-# Introduction
-<img src="screenshots/01.png" alt="Screenshot 119">
-KM is an opensource [laravel eCommerce] framework built on some of the hottest technologies such as [Laravel](https://laravel.com/) (a [PHP](https://secure.php.net/) framework) and [Tailwind CSS](https://tailwindcss.com/) a progressive CSS Library built with the help of [Vite](https://vite.dev/).
+# KM: Open-Source Laravel eCommerce Framework
 
-KM can help you reduce the time, cost, and workforce that you are going to spend for building online stores or migrating to the fast-paced online world. Either small or huge business can easily benefit. The best part, it's straightforward to set it up!
+<img src="screenshots/01.png" alt="KM Screenshot">
 
+**KM** is an open-source [Laravel eCommerce](https://laravel.com/) framework built using cutting-edge technologies like [Laravel](https://laravel.com/) (a [PHP](https://secure.php.net/) framework) and [Tailwind CSS](https://tailwindcss.com/). It leverages [Vite](https://vite.dev/) for modern, fast development.
+
+KM reduces the time, cost, and effort required to build online stores or migrate your business online. Whether you're running a small business or a large enterprise, KM is designed to meet your needs. The best part? Setting it up is straightforward and efficient!
+
+---
 
 ## Deployment
 
-To deploy this project run
+To deploy this project, follow these steps:
 
 ```bash
-  composer i
+# Install dependencies
+composer install
 
+# Run migrations
+php artisan migrate
 
-  php artisan migrate 
-  
-  or direct run sql file in /database/data/bridgemonkcorp.sql
-  
-  php artisan serve
+# Alternatively, import the provided SQL file
+# located in /database/data/bridgemonkcorp.sql
+
+# Start the server
+php artisan serve
 ```
 
-# Getting Started
+---
 
+## Getting Started
 
+### [Install KM](https://www.youtube.com/watch?v=1J7U5n7h8Lo)
 
+Follow the [Getting Started with KM](https://www.youtube.com/watch?v=1J7U5n7h8Lo) tutorial.
 
-[Install KM](https://www.youtube.com/watch?v=1J7U5n7h8Lo) with Composer 
+### Setup Steps
 
-Follow the [Getting Started with KM](https://www.youtube.com/watch?v=1J7U5n7h8Lo) Tutorial
+#### 1. Store Setup
+[Click](http://localhost:8000/admin/setup) to configure your store. Enter the store name, description, email address, and phone number.
 
+<img src="screenshots/Screenshot (119).png" alt="Store Setup Screenshot">
 
+#### 2. Admin Setup
+Set up your admin account by providing a name, email, and password. Click "Next" to proceed.
 
+<img src="screenshots/Screenshot (120).png" alt="Admin Setup Screenshot">
 
+#### 3. Verify Store Details
+Review and confirm the details you provided for your store setup.
 
-Steps
+<img src="screenshots/Screenshot (121).png" alt="Verify Details Screenshot">
 
-1st step - 
-[Click](localhost:8000/admin/setup) on this link to setup ecommerce & Enter store name, description, store email address & phone number. 
-<img src="screenshots/Screenshot (119).png" alt="Screenshot 119">
+#### 4. Access Admin Panel
+Once setup is complete, access your admin panel by entering your credentials.
 
-2nd step - 
-Enter your admin name, email & password to proceed further. Click on next.
-<img src="screenshots/Screenshot (120).png" alt="Screenshot 120">
+<img src="screenshots/Screenshot (122).png" alt="Admin Panel Access Screenshot">
 
-3rd step - 
-Verify the details that you have set-up for your store that it whether mayches with all the details that you have entered.
-<img src="screenshots/Screenshot (121).png" alt="Screenshot 121">
+#### Admin Dashboard
+Explore the fully-featured admin dashboard:
 
-4th step - 
-Your admin panel has been setup. Click on Go to admin panel to go to admin enter your email & password and redirect to admin panel dashboard.
-<img src="screenshots/Screenshot (122).png" alt="Screenshot 122">
+<img src="screenshots/Screenshot (123).png" alt="Admin Dashboard Screenshot">
 
-This is your admin panel dashboard with containing all the essential features that admin panel might needed.
-<img src="screenshots/Screenshot (123).png" alt="Screenshot 123">
+---
 
+## Key Features
 
+### Add Products
+1. Navigate to the **Products** tab.
+2. Add product details such as name, price, description, excerpt, inventory, and weight.
+3. Upload product images to the gallery.
+4. Save your changes.
 
-Now go to product tab and add new product name, price, description & excerpt. Click on save.
-<img src="screenshots/Screenshot (125).png" alt="Screenshot 125">
+<img src="screenshots/Screenshot (125).png" alt="Add Product Screenshot">
 
-Now go to product tab and add new product price, compare price & cost per item. Click on save.
-<img src="screenshots/Screenshot (126).png" alt="Screenshot 126">
+### Product Preview
+Preview how your product will appear on the store page:
 
-Now in product gallery add multiple products images it will take some time to save, so please be patient.
-<img src="screenshots/Screenshot (127).png" alt="Screenshot 127">
+<img src="screenshots/Screenshot (131).png" alt="Product Preview Screenshot">
 
+### Create Collections
+Group products into collections by:
+1. Adding a collection title and description.
+2. Selecting products to include.
+3. Uploading a collection cover image.
 
-Now go to product tab and add new product inventory stock & weight per item. Click on save. Add your shipping box weight and click on save.
-<img src="screenshots/Screenshot (129).png" alt="Screenshot 129">
+<img src="screenshots/Screenshot (134).png" alt="Create Collection Screenshot">
 
-Now you will see how will see how your product page will look, you can check this on by clicking on preview.
-<img src="screenshots/Screenshot (131).png" alt="Screenshot 131">
+### Shipping Rules
+1. Define shipping zones and rates based on weight or price.
+2. Set conditions and descriptions for each rate.
 
-This is how your product will look like on admin page on product being listed
-<img src="screenshots/Screenshot (132).png" alt="Screenshot 132">
+<img src="screenshots/Screenshot (143).png" alt="Shipping Rules Screenshot">
 
-Now we are going to create collection by clicking on create new collection and then adding your collection title and description.
-<img src="screenshots/Screenshot (133).png" alt="Screenshot 133">
+### Tax Zones
+1. Create tax zones with country-specific rates.
+2. Specify tax percentages and priorities.
 
-NOw we are going to see product collection title and description.
-<img src="screenshots/Screenshot (134).png" alt="Screenshot 134">
+<img src="screenshots/Screenshot (144).png" alt="Tax Zone Screenshot">
 
-Now select what type of product you want to add for it to being listed. 
-<img src="screenshots/Screenshot (135).png" alt="Screenshot 135">
+### Discounts
+Generate discount codes, specify type (percentage or value), select applicable products or collections, and set validity dates.
 
-Click on browser product to add the product.
-<img src="screenshots/Screenshot (136).png" alt="Screenshot 136">
+<img src="screenshots/Screenshot (147).png" alt="Discount Setup Screenshot">
 
-Search and add the product that you want to add in your collection.
-<img src="screenshots/Screenshot (137).png" alt="Screenshot 137">
+### Customer Experience
+Customers can:
+1. Sign up for an account.
+2. Add products to their cart.
+3. Apply discount codes and checkout with ease.
 
-Now you can add the collection cover image for your collection demo.
-<img src="screenshots/Screenshot (138).png" alt="Screenshot 138">
+<img src="screenshots/Screenshot (151).png" alt="Customer Cart Screenshot">
 
-Now we are going to add shipping rule. For that click on shipping and click on create new.
-Add zone name. 
-<img src="screenshots/Screenshot (139).png" alt="Screenshot 139">
+### Admin Order Management
+Monitor orders directly from the admin panel:
 
-Select the zone country
-<img src="screenshots/Screenshot (140).png" alt="Screenshot 140">
+<img src="screenshots/Screenshot (156).png" alt="Order Details Screenshot">
 
-Click on add rate.
-<img src="screenshots/Screenshot (141).png" alt="Screenshot 141">
+---
 
-Add rate name, price & description for shipping rate policy.
-<img src="screenshots/Screenshot (142).png" alt="Screenshot 142">
+## Accelerate Your Online Store Launch
 
+With KM's **Starter Pack**, you get all the basic eCommerce features needed to launch your online store seamlessly. [Explore the KM Starter Pack](https://www.youtube.com/watch?v=1J7U5n7h8Lo).
 
-After clicking on add condition, we have two option either based on weight and price. You can add any.
-<img src="screenshots/Screenshot (143).png" alt="Screenshot 143">
+---
 
-Now we are going to create tax zone. Click on create tax zone.
-<img src="screenshots/Screenshot (144).png" alt="Screenshot 144">
+## Versatile Commerce Solutions
 
-Create tax zone name and select the country for tax zone.
-<img src="screenshots/Screenshot (145).png" alt="Screenshot 145">
+KM is designed for various industries, including clothing, textiles, and more. Customize it to meet your business needs!
 
-Add tax rate name, tax percentage & tax priority.
-<img src="screenshots/Screenshot (146).png" alt="Screenshot 146">
+---
 
-Now we are goin to create discount for your products for that we can generate discount code by clicking on generate, we can add type percentage & value, we can add specific product or collection and select the date from which it is going to start.
-<img src="screenshots/Screenshot (147).png" alt="Screenshot 147">
+## License
 
-As we are goin to select the product for discount.
-<img src="screenshots/Screenshot (148).png" alt="Screenshot 148">
+KM is licensed under the [MIT License](https://opensource.org/license/mit), ensuring it will always remain free and open-source.
 
-Click on save to save it.
-<img src="screenshots/Screenshot (149).png" alt="Screenshot 149">
+---
 
-Now we are going to create new account and sign up for it.
-<img src="screenshots/Screenshot (150).png" alt="Screenshot 150">
+## Security Vulnerabilities
 
-We are going to add one of our product to the cart.
-<img src="screenshots/Screenshot (151).png" alt="Screenshot 151">
+If you discover a security issue in KM, please do not disclose it publicly. Instead, email us at [bridgemonkcorp@gmail.com](mailto:bridgemonkcorp@gmail.com).
 
-After adding to cart we are going to checkout.
-<img src="screenshots/Screenshot (152).png" alt="Screenshot 152">
+---
 
-We are going to apply discount code and going to add all the required details to get it delivered.
-<img src="screenshots/Screenshot (153).png" alt="Screenshot 153">
+## Contributors
 
-We are to select fixed charge & cash on delivery for it. 
-<img src="screenshots/Screenshot (154).png" alt="Screenshot 154">
+This project is supported by an active community. Learn more on our [Open Collective](https://opencollective.com/).
 
-Now we can check in our admin that we have recived the order.
-<img src="screenshots/Screenshot (156).png" alt="Screenshot 156">
+---
 
-This is the order details that we have received.
-<img src="screenshots/Screenshot (157).png" alt="Screenshot 157">
+## Sponsors
 
-
-
-
-
-# Accelerate Your Online Store Launch with the KM Freemium!
-
-We cover all the basic features of ecommerce that is needed for an online store [KM Starter Pack](https://www.youtube.com/watch?v=1J7U5n7h8Lo), with easy streamlining setup and integration for launch. Find your success through our free product. 
-
-
-# Commerce For Every Need
-
-
-With KM, you can easily create use cases for various commerce needs like cloth, garment, textile, and many more.
-
-
-# License
-KM is a truly open-source laravel eCommerce framework that will always be free under the [MIT License](https://opensource.org/license/mit).
-
-# Security Vulnerabilities
-If you think that you have found a security issue in Bagisto, please do not use the issue tracker and do not post it publicly. Instead, all security issues must be sent to [mailto:bridgemonkcorp@gmail.com](mailto:bridgemonkcorp@gmail.com).
-
-# Contributors
-
-This project is on [Open Collective](https://opencollective.com/), and it exists thanks to the people who contribute.
-
-
-
-# Sponsors
-
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website.
-
-Mail us to show your interest and we would love to serve you.
+Support KM by becoming a sponsor. Your logo will appear here with a link to your website. Interested? Email us to discuss sponsorship opportunities.
