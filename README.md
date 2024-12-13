@@ -196,6 +196,8 @@ KM's **Premium Features** take your eCommerce store to the next level with advan
 - **Payments**
 - **Checkout**
 
+For full eCommerce features mail us on  [bridgemonkcorp@gmail.com](mailto:bridgemonkcorp@gmail.com).
+
 ---
 
 ## 🚀 Accelerate Your Online Store Launch
