@@ -6,6 +6,25 @@
 
 KM streamlines the process of launching online stores, reducing the time, cost, and effort needed to take your business online. Whether you're a small business or a large enterprise, KM is flexible, robust, and easy to set up!
 
+---
+
+## 🚀 Deployment
+
+Deploy KM by following these simple steps:
+
+```bash
+# Install dependencies
+composer install
+
+# Run migrations
+php artisan migrate
+
+# Alternatively, import the provided SQL file
+# located in /database/data/bridgemonkcorp.sql
+
+# Start the server
+php artisan serve
+```
 
 ---
 
@@ -152,27 +171,6 @@ Monitor and manage orders directly from the admin panel:
 
 ---
 
-
-## 🚀 Deployment
-
-Deploy KM by following these simple steps:
-
-```bash
-# Install dependencies
-composer install
-
-# Run migrations
-php artisan migrate
-
-# Alternatively, import the provided SQL file
-# located in /database/data/bridgemonkcorp.sql
-
-# Start the server
-php artisan serve
-```
-
-
----
 ## 🚀 Premium Features
 
 KM's **Premium Features** take your eCommerce store to the next level with advanced tools and functionalities:
