@@ -34,6 +34,87 @@ php artisan serve
 
 Follow the [Getting Started with KM](https://www.youtube.com/watch?v=1J7U5n7h8Lo) video tutorial for step-by-step guidance.
 
+
+
+## 🛠️ Technologies Used
+
+KM is built with the following core technologies:
+
+- **Laravel** - A robust PHP framework for backend development.
+- **Tailwind CSS** - Utility-first CSS framework for modern UI design.
+- **Vite** - A modern frontend tooling system for fast build and development.
+- **MySQL** - Relational database for data management.
+- **PHP 8.1+** - Backend scripting language.
+- **Alpine.js** - Lightweight JavaScript library for interactivity.
+- **Livewire** - Full-stack framework for dynamic UI without JavaScript.
+- **Nginx/Apache** - Web server support.
+- **Composer** - Dependency management tool for PHP.
+- **Node.js & NPM** - For building frontend assets.
+- **Git** - Version control system for collaboration.
+
+---
+
+## 🖥️ Processor and System Requirements
+
+To run KM smoothly, the following system requirements are recommended:
+
+### Minimum Requirements:
+- **Processor**: Dual-core CPU (2 GHz)
+- **RAM**: 2 GB
+- **Storage**: 10 GB free space
+- **Operating System**: Ubuntu 20.04+, Windows 10+, macOS 10.14+
+- **PHP Version**: 8.1 or higher
+- **Database**: MySQL 5.7 or MariaDB 10.2
+- **Node.js**: v16+ with npm
+- **Web Server**: Apache 2.4+ or Nginx 1.18+
+
+### Recommended Requirements:
+- **Processor**: Quad-core CPU (3 GHz)
+- **RAM**: 4 GB or higher
+- **Storage**: 20 GB SSD
+- **Operating System**: Ubuntu 22.04, macOS 12, or Windows Server 2022
+- **PHP Version**: 8.2+
+- **Database**: MySQL 8.0+ or MariaDB 10.5+
+- **Node.js**: v18+ with npm
+- **Web Server**: Nginx or Apache with SSL enabled.
+
+---
+
+## 💰 Technology Cost
+
+While KM is free and open-source under the MIT License, here are the associated technology costs (optional depending on setup):
+
+### Hosting Providers:
+- **Shared Hosting**: $5–$15/month
+- **VPS Hosting**: $20–$50/month
+- **Cloud Hosting** (AWS/Azure/Google Cloud): $10–$100/month depending on usage.
+
+### Domain Name:
+- **Cost**: $10–$20/year
+
+### SSL Certificate:
+- **Free**: (e.g., Let’s Encrypt)
+- **Premium**: $50–$200/year
+
+### Mail Service (Optional):
+- **Mailtrap, SendGrid, or Mailgun**: Free to $20/month depending on emails sent.
+
+### Premium Plugins or Themes (Optional):
+- **Cost**: $50–$500 (one-time).
+
+### Storage Costs (Optional for product images, files):
+- **Amazon S3 or DigitalOcean Spaces**: $5–$20/month.
+
+### Example Cost Breakdown:
+| Service               | Option           | Estimated Cost |
+|-----------------------|------------------|----------------|
+| **Hosting**           | Shared Hosting   | $10/month      |
+| **Domain Name**       | .com Domain      | $12/year       |
+| **SSL Certificate**   | Let’s Encrypt    | Free           |
+| **Mail Service**      | Mailtrap         | Free Plan      |
+| **Storage**           | Amazon S3        | $5/month       |
+
+
 ### Initial Setup Steps
 
 #### 1. Store Setup
